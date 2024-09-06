@@ -1,0 +1,22 @@
+/* src/App.css */
+.board {
+  display: inline-block;
+  border: 2px solid #333;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  margin: 1px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.cell.revealed {
+  background-color: lightgray;
+  cursor: default;
+}
